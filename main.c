@@ -1,7 +1,6 @@
 #include "allhead.h"
 
 #define maxn 1005
-
 int id = 0;
 char str[maxn];
 char file_name[maxn];

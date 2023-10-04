@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0b784df-a0a7-46da-ba74-b3915e5122b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/answer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/transit.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2VcHuHb2blIea9DvYhPNK1kyEbo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "test",
+    "last_opened_file_path": "/Users/longaotian/Desktop/code",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="C/C++ File.system.c - G++">
+    <configuration name="A.cpp - G++" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="code" TARGET_NAME="A.cpp - G++" CONFIG_NAME="A.cpp - G++">
+      <option name="sourceFile" value="$PROJECT_DIR$/A.cpp" />
+      <option name="toolchainName" value="G++" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B.cpp - G++" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="code" TARGET_NAME="B.cpp - G++" CONFIG_NAME="B.cpp - G++">
+      <option name="sourceFile" value="$PROJECT_DIR$/B.cpp" />
+      <option name="toolchainName" value="G++" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C.cpp - G++" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="code" TARGET_NAME="C.cpp - G++" CONFIG_NAME="C.cpp - G++">
+      <option name="sourceFile" value="$PROJECT_DIR$/C.cpp" />
+      <option name="toolchainName" value="G++" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D.cpp - G++" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="code" TARGET_NAME="D.cpp - G++" CONFIG_NAME="D.cpp - G++">
+      <option name="sourceFile" value="$PROJECT_DIR$/D.cpp" />
+      <option name="toolchainName" value="G++" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="F.c - G++" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="code" TARGET_NAME="F.c - G++" CONFIG_NAME="F.c - G++">
+      <option name="sourceFile" value="$PROJECT_DIR$/F.c" />
+      <option name="toolchainName" value="G++" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cheat.c - G++" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="code" TARGET_NAME="cheat.c - G++" CONFIG_NAME="cheat.c - G++">
+      <option name="sourceFile" value="$PROJECT_DIR$/cheat.c" />
+      <option name="toolchainName" value="G++" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.c - G++" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="code" TARGET_NAME="main.c - G++" CONFIG_NAME="main.c - G++">
+      <option name="sourceFile" value="$PROJECT_DIR$/main.c" />
+      <option name="toolchainName" value="G++" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rl.c - G++" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="code" TARGET_NAME="rl.c - G++" CONFIG_NAME="rl.c - G++">
+      <option name="sourceFile" value="$PROJECT_DIR$/rl.c" />
+      <option name="toolchainName" value="G++" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="system.c - G++" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="code" TARGET_NAME="system.c - G++" CONFIG_NAME="system.c - G++">
+      <option name="sourceFile" value="$PROJECT_DIR$/system.c" />
+      <option name="toolchainName" value="G++" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clear" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="clear" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="hello" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="hello" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.system.c - G++" />
+      <item itemvalue="C/C++ File.A.cpp - G++" />
+      <item itemvalue="C/C++ File.B.cpp - G++" />
+      <item itemvalue="C/C++ File.C.cpp - G++" />
+      <item itemvalue="C/C++ File.D.cpp - G++" />
+      <item itemvalue="C/C++ File.F.c - G++" />
+      <item itemvalue="C/C++ File.cheat.c - G++" />
+      <item itemvalue="C/C++ File.main.c - G++" />
+      <item itemvalue="C/C++ File.rl.c - G++" />
+      <item itemvalue="Makefile Target.clear" />
+      <item itemvalue="Makefile Target.hello" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile Target.hello" />
+        <item itemvalue="Makefile Target.clear" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0b784df-a0a7-46da-ba74-b3915e5122b1" name="Changes" comment="" />
+      <created>1695128668796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695128668796</updated>
+      <workItem from="1695128669736" duration="480000" />
+      <workItem from="1695130093608" duration="22000" />
+      <workItem from="1695130162152" duration="7000" />
+      <workItem from="1695130198880" duration="2284000" />
+      <workItem from="1695168930415" duration="937000" />
+      <workItem from="1695169873291" duration="10319000" />
+      <workItem from="1695210832188" duration="8482000" />
+      <workItem from="1695224036427" duration="1944000" />
+      <workItem from="1695226275716" duration="2033000" />
+      <workItem from="1695253834005" duration="1018000" />
+      <workItem from="1695261556565" duration="140000" />
+      <workItem from="1695273170113" duration="22634000" />
+      <workItem from="1695386303125" duration="1303000" />
+      <workItem from="1695388559516" duration="5000" />
+      <workItem from="1695388572108" duration="55000" />
+      <workItem from="1695388662038" duration="111000" />
+      <workItem from="1695388936579" duration="4000" />
+      <workItem from="1695389213344" duration="25000" />
+      <workItem from="1695389249125" duration="27000" />
+      <workItem from="1695390426817" duration="47000" />
+      <workItem from="1695390490989" duration="5000" />
+      <workItem from="1695400787923" duration="1290000" />
+      <workItem from="1695460910597" duration="15105000" />
+      <workItem from="1695478107535" duration="32546000" />
+      <workItem from="1695653088958" duration="13000" />
+      <workItem from="1695654513616" duration="871000" />
+      <workItem from="1695661879777" duration="13000" />
+      <workItem from="1695685168587" duration="895000" />
+      <workItem from="1695687096729" duration="1089000" />
+      <workItem from="1695695268850" duration="3365000" />
+      <workItem from="1695699014391" duration="3191000" />
+      <workItem from="1695902864362" duration="1986000" />
+      <workItem from="1696355129891" duration="2000" />
+      <workItem from="1696421340168" duration="1866000" />
+      <workItem from="1696423239353" duration="338000" />
+      <workItem from="1696423597890" duration="1547000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
