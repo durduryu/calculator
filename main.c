@@ -11,6 +11,9 @@ FILE *f1, *f2, *f3;
 bool flag_ch, flag_num,flag_tr;
 bool flag = 0;//判断是否出现非‘（’的符号出现在第一个的情况
 
+//#define D
+//删除"//"的话实现输出时会输出后缀表达式
+
 void begin_();
 
 void solve();
@@ -22,6 +25,9 @@ int main(int argc,char *argv[]) {
             flag_tr=1;
         }
     }
+#ifdef D
+    flag_tr=1;
+#endif
     using_history();
     rl_initialize();
 
