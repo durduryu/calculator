@@ -7,6 +7,7 @@
 #include"print.h"
 #include"work.h"
 #include"stdlib.h"
+#include"transit.h"
 #include<readline/history.h>
 #include<readline/readline.h>
 

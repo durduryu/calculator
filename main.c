@@ -1,4 +1,3 @@
-#pragma once
 #include "allhead.h"
 
 #define maxn 1005
@@ -58,14 +57,17 @@ int main(int argc,char *argv[]) {
         else if (strcmp(input,"H")==0){
             flag_H=1;
             flag_B=0;
+            printf("\033[35mThe calculator switches to hex mode\033[0m\n");
         }
         else if (strcmp(input,"B")==0){
             flag_B=1;
             flag_H=0;
+            printf("\033[35mThe calculator switches to binary mode\033[0m\n");
         }
         else if (strcmp(input,"D")==0) {
             flag_B = 0;
             flag_H = 0;
+            printf("\033[35mThe calculator switches to decimal mode\033[0m\n");
         }
         else if(flag_H==1){
             Hsolve(file_name,input);
