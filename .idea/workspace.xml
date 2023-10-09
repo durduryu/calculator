@@ -10,7 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0b784df-a0a7-46da-ba74-b3915e5122b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solve.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solve.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allhead.h" beforeDir="false" afterPath="$PROJECT_DIR$/allhead.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_make.c" beforeDir="false" afterPath="$PROJECT_DIR$/file_make.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print.c" beforeDir="false" afterPath="$PROJECT_DIR$/print.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/transit.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +206,7 @@
       <workItem from="1696421340168" duration="1866000" />
       <workItem from="1696423239353" duration="338000" />
       <workItem from="1696423597890" duration="2134000" />
-      <workItem from="1696680611317" duration="637000" />
+      <workItem from="1696680611317" duration="10230000" />
     </task>
     <servers />
   </component>

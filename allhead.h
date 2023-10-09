@@ -4,6 +4,7 @@
 #include<stdlib.h>
 #include<stdbool.h>
 #include "stack.h"
+#include "solve.h"
 #include "work.h"
 #include "print.h"
 #include "file_make.h"

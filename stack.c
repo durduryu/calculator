@@ -3,6 +3,8 @@
 #include<stdbool.h>
 #include"stack.h"
 
+
+
 void stack_init(stack *p) {
     p->size = 0;
     p->top = NULL;
