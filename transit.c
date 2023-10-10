@@ -13,6 +13,11 @@ void Btransit(char *str,unsigned long long num){//进行2进制的转换
             str[id++]=a+48;
         }
     }
+    if(id!=0)
     str[id]='\0';
+    else {
+        str[1]='\0';
+        str[0]='0';
+    }
     return ;
 }

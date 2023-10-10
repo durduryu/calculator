@@ -9,6 +9,8 @@ long double num[1005];
 unsigned long long num2[1005];
 
 void begin_(){
+    num[1]=0;
+    num2[1]=0;
     fclose(f2);
     fclose(f3);
     f3 = fopen("transit.txt", "r");
@@ -20,7 +22,7 @@ void begin_(){
 }
 
 void Dsolve(char* file_name,char *input){//10进制的计算
-    begin_();
+   begin_();
     int i = 0;
     while(input[i]==' ')i++;
     if(input[i]=='-'){//特判断第一个出现的符号为‘-’的情况
@@ -73,6 +75,30 @@ void Dsolve(char* file_name,char *input){//10进制的计算
                 flag_ch=1;
                 stack_work(input[i],f2,&s);
             }
+           else if(input[i]=='|'||input[i]=='&'||input[i]=='='){
+                if(flag_ch==1||i==strlen(input)-1||input[i+1]!=input[i]){
+                    wrong();
+                    return ;
+                }
+                flag_ch=1;
+                stack_work(input[i],f2,&s);
+                i++;
+            }
+            else if(input[i]=='<'||input[i]=='>'||input[i]=='!'){
+                if(flag_ch==1||i==strlen(input)-1||(input[i]=='!'&&input[i+1]!='=')){
+                    wrong();
+                    return ;
+                }
+                flag_ch=1;
+                if(input[i+1]!='='){
+                    stack_work(input[i],f2,&s);
+                }
+                else {
+                    if(input[i]=='!')stack_work(input[i],f2,&s);
+                    else input[i]=='<'?stack_work('a',f2,&s):stack_work('b',f2,&s);
+                    i++;
+                }
+            }
             else if(input[i]=='('){
                 flag_ch=1;
                 stack_work(input[i],f2,&s);
@@ -114,20 +140,39 @@ void Dsolve(char* file_name,char *input){//10进制的计算
         if (strcmp(str, "stop") == 0) {
             break;
         } else {
-            if(flag_tr==1){
-                printf("%s ",str);
-            }
             if (strlen(str)>1||(str[0] <= '9' && str[0] >= '0')) {
                 num[++id] = atof(str);
             } else {
                 switch (str[0]) {
+                    case '&':
+                        num[id-1]=num[id]&&num[id-1];
+                        break;
+                    case '|':
+                        num[id-1]=num[id]||num[id-1];
+                        break;
+                    case '<':
+                        num[id-1]=num[id-1]<num[id];
+                        break;
+                    case '>':
+                        num[id-1]=num[id-1]>num[id];
+                        break;
+                    case 'a':
+                        num[id-1]=num[id-1]<=num[id];
+                        break;
+                    case 'b':
+                        num[id-1]=num[id-1]>=num[id];
+                        break;
+                    case '=':
+                        num[id-1]=(num[id-1]==num[id]);
+                        break;
+                    case '!':
+                        num[id-1]=num[id-1]!=num[id];
+                        break;
                     case '+':
                         num[id - 1] += num[id];
-                        id--;
                         break;
                     case '-':
                         num[id - 1] -= num[id];
-                        id--;
                         break;
                     case '/':
                         if(num[id]==0){
@@ -135,13 +180,12 @@ void Dsolve(char* file_name,char *input){//10进制的计算
                             return ;
                         }
                         num[id - 1] /= num[id];
-                        id--;
                         break;
                     case '*':
                         num[id - 1] *= num[id];
-                        id--;
                         break;
                 }
+                id--;
             }
         }
     }
@@ -175,7 +219,7 @@ void Bsolve(char *file_name,char *input){//2进制的计算
                 wrong();
                 return ;
             }
-            else if (input[i] == '+' || input[i] == '-' || input[i] == '*' || input[i] == '/') {
+            else if (input[i] == '+' || input[i] == '-' || input[i] == '*' || input[i] == '/'||input[i]=='&'||input[i]=='^'||input[i]=='|') {
                 if (flag_ch ==1){
                     wrong();
                     return;
@@ -235,6 +279,18 @@ void Bsolve(char *file_name,char *input){//2进制的计算
 
             } else {
                 switch (str[0]) {
+                    case '|':
+                        num2[id-1]|=num2[id];
+                        id--;
+                        break;
+                    case '^':
+                        num2[id-1]^=num2[id];
+                        id--;
+                        break;
+                    case '&':
+                        num2[id-1]&=num2[id];
+                        id--;
+                        break;
                     case '+':
                         num2[id - 1] += num2[id];
                         id--;
