@@ -15,6 +15,7 @@ void stack_pop(stack *p) {
     if (p->size == 0)return;
     data *m = p->top;
     p->top = m->next;
+    free(m);
     p->size--;
     return;
 }
@@ -28,8 +29,9 @@ void stack_clear(stack *p) {
     while (q != NULL) {
         data *m = q;
         q = q->next;
-        free(q);
+        free(m);
     }
+    p->size=0;
     return;
 }
 

@@ -10,7 +10,7 @@ unsigned long long num2[1005];
 
 void begin_(){
     num[1]=0;
-    num2[1]=0;
+    num2[1]=num2[0]=0;
     fclose(f2);
     fclose(f3);
     f3 = fopen("transit.txt", "r");
@@ -19,10 +19,11 @@ void begin_(){
     flag_num = 0;
     flag_ch = 0;
     flag = 0;
+    while(!is_empty(&s))stack_pop(&s);
 }
 
 void Dsolve(char* file_name,char *input){//10进制的计算
-   begin_();
+    begin_();
     int i = 0;
     while(input[i]==' ')i++;
     if(input[i]=='-'){//特判断第一个出现的符号为‘-’的情况
@@ -100,14 +101,16 @@ void Dsolve(char* file_name,char *input){//10进制的计算
                 }
             }
             else if(input[i]=='('){
+                num2[0]++;
                 flag_ch=1;
                 stack_work(input[i],f2,&s);
             }
             else if(input[i]==')'){
-                if(flag_ch==1){
+                if(flag_ch==1||!num2[0]){
                     wrong();
                     return ;
                 }
+                num2[0]--;
                 stack_work(input[i],f2,&s);
             }
             else{
@@ -118,6 +121,8 @@ void Dsolve(char* file_name,char *input){//10进制的计算
         }
         else i++;
     }
+
+
 
     if (flag_ch) {//如果结尾时非‘）’的符号的话
         wrong();
@@ -228,14 +233,16 @@ void Bsolve(char *file_name,char *input){//2进制的计算
                 stack_work(input[i],f2,&s);
             }
             else if(input[i]=='('){
+                num2[0]++;
                 flag_ch=1;
                 stack_work(input[i],f2,&s);
             }
             else if(input[i]==')'){
-                if(flag_ch==1){
+                if(flag_ch==1||!num2[0]){
                     wrong();
                     return ;
                 }
+                num2[0]--;
                 stack_work(input[i],f2,&s);
             }
             else{
@@ -359,14 +366,16 @@ void Hsolve(char *file_name,char *input){
                 stack_work(input[i],f2,&s);
             }
             else if(input[i]=='('){
+                num2[0]++;
                 flag_ch=1;
                 stack_work(input[i],f2,&s);
             }
             else if(input[i]==')'){
-                if(flag_ch==1){
+                if(flag_ch==1||!num2[0]){
                     wrong();
                     return ;
                 }
+                num2[0]--;
                 stack_work(input[i],f2,&s);
             }
             else{

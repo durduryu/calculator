@@ -14,6 +14,7 @@ flag_tr=1;
 #endif
 
 int main(int argc, char *argv[]) {
+    stack_init(&s);
     int op = 0;
     while ((op = getopt(argc, argv, "d")) != -1) {
         if (op == 'd') {
@@ -68,7 +69,7 @@ int main(int argc, char *argv[]) {
         } else if (flag_H == 1) {
             Hsolve(file_name, input);
             if (flag_tr) {
-                Hprint();
+                print();
             }
         } else if (flag_B == 1) {
             Bsolve(file_name, input);
@@ -78,7 +79,7 @@ int main(int argc, char *argv[]) {
         } else {
             Dsolve(file_name, input);
             if (flag_tr) {
-                print();
+                Dprint();
             }
         }
         if(input!=NULL)

@@ -10,19 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0b784df-a0a7-46da-ba74-b3915e5122b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/answer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print.c" beforeDir="false" afterPath="$PROJECT_DIR$/print.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print.h" beforeDir="false" afterPath="$PROJECT_DIR$/print.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solve.c" beforeDir="false" afterPath="$PROJECT_DIR$/solve.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transit.c" beforeDir="false" afterPath="$PROJECT_DIR$/transit.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/transit.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.c" beforeDir="false" afterPath="$PROJECT_DIR$/work.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.h" beforeDir="false" afterPath="$PROJECT_DIR$/work.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack.c" beforeDir="false" afterPath="$PROJECT_DIR$/stack.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

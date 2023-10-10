@@ -34,9 +34,9 @@ void print(){
     return ;
 }
 
-void Hprint(){
+void Dprint(){
     f=fopen("transit.txt","r");
-    while(fscanf(f,"%s",s)){
+    while(fscanf(f,"%s",s)!=EOF){
         if(strcmp(s,"stop")==0)break;
         if((s[0]<='9'&&s[0]>='0')||(s[0]<='F'&&s[0]>='A')){
             printf("%s ",s);

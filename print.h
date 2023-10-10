@@ -6,4 +6,4 @@ void help();
 
 void print();
 
-void Hprint();
+void Dprint();
